@@ -1,0 +1,173 @@
+/* 상품 리스트 */
+#goodsTopBar {
+  font-weight: bold;
+  font-size: 40px;
+}
+
+#goodsList {
+  text-align: center;
+  margin:0 auto;
+  width: 1300px;
+}
+.goodsListDiv {
+  width:420px;
+  height:300px;
+  display:inline-block;
+}
+.goodsTitle {
+  font-size: 22px;
+  font-weight: bold;
+}
+.goodsPrice {
+  font-size: 17px;
+}
+
+#goodsRegistDiv{
+  width:auto;
+  text-align: right;
+  margin-top: 10px;
+}
+#goodsRegistDiv > a:link {text-decoration:none; color:#F9FBEE;}
+#goodsRegistDiv > a:visited {text-decoration:none; color:#F9FBEE;}
+#goodsRegistDiv > a:active {text-decoration:none; color:#F9FBEE;}
+#goodsRegistDiv > a:hover {text-decoration:none; color:#F9FBEE;}
+
+#goodsRegistBtn {
+  padding:5px;
+  margin-right: 10%;
+  font-size: 30px;
+  background-color:#3C2E25;
+}
+
+#goodsPageDiv {
+  font-size: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+#goodsPageDiv > a:link {text-decoration:none; color:black;}
+#goodsPageDiv > a:visited {text-decoration:none; color:black;}
+#goodsPageDiv > a:active {text-decoration:none; color:black;}
+#goodsPageDiv > a:hover {text-decoration:none; color:black;}
+
+/* 상품 컨텐츠 */
+
+#mainImgDiv {
+  width: 300px;
+  height: 300px;
+}
+
+
+#goodsPurchaseDiv {
+  text-align: center;
+}
+#goodsContentDiv {
+  text-align: center;
+  margin:0 auto;
+  background-color: #B9BAA4;
+  width:1100px;
+}
+#mainImgDiv {
+  display:inline-block;
+  width:600px;
+  height:400px;
+}
+
+#goodsTitleDiv{
+  padding-top: 10px;
+  text-align: center;
+  font-size: 40px;
+  border-bottom: solid 3px #D1CA91;
+  margin-bottom: 10px;
+}
+#purchaseDiv {
+  display:inline-block;
+  vertical-align:top;
+}
+
+#purchaseTable {
+  margin-left: 20px;
+  height:400px;
+}
+.purchaseFunc {
+  padding:5px;
+  font-size: 30px;
+  background-color:#3C2E25;
+}
+
+.purchaseFunc:link {text-decoration:none; color:#F9FBEE;}
+.purchaseFunc:visited {text-decoration:none; color:#F9FBEE;}
+.purchaseFunc:active {text-decoration:none; color:#F9FBEE;}
+.purchaseFunc:hover {text-decoration:none; color:#F9FBEE;}
+
+.goodsContentfirstTd {
+  font-size: 25px;
+  font-weight: bold;
+}
+#funcBtn {
+  text-align: right;
+  margin-right: 10%;
+}
+ .goodsSubjectTd {
+   font-size: 25px;
+ }
+
+ /* 상품평 올리기 */
+
+ #writeReviewDiv {
+   text-align: center;
+ }
+
+ #reviewTable {
+   text-align: center;
+   border-collapse:collapse;
+   width:500px;
+   background-color: #E6DE9F;
+   border-bottom:  solid 3px black;
+ }
+.reviewContentfirstTd {
+  width:50px;
+  font-weight: bold;
+}
+
+/*글쓰기 수정*/
+#registGoodsTable {
+  border-collapse:collapse;
+  width:1000px;
+  background-color: #E6DE9F;
+}
+
+#contentDiv {
+  overflow-x:hidden;
+  overflow-y:scroll;
+  background-color: #F9FBDD;
+  height:400px;
+
+}
+
+.registGoodsfirstTd {
+  background-color:#8F8A63;
+  text-align: center;
+  font-weight:bold;
+  font-size:22px;
+  width:120px;
+}
+.mainImgfirstTd {
+  background-color:#8F8A63;
+  text-align: center;
+  font-weight:bold;
+  width:120px;
+}
+.registGoodsSubjectTd {
+  background-color:#D1CA91;
+  text-align: center;
+  font-size:20px;
+  width:880px;
+}
+
+.registGoodsFunc {
+  font-size: 30px;
+  text-align: right;
+  margin-right:20%;
+  margin-top:20px;
+}

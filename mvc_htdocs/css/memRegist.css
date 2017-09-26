@@ -1,0 +1,48 @@
+#main {
+  text-align: center;
+}
+#memRegistTopBar {
+  font-weight: bold;
+  font-size: 40px;
+}
+#login_wrap {
+  margin: 0 auto;
+  width : 1000px;
+}
+#memRegistTable{
+  text-align: left;
+  border-collapse:collapse;
+  background-color: #E6DE9F;
+}
+
+.memRegistfirstTd {
+  background-color:#8F8A63;
+  text-align: center;
+  font-weight:bold;
+  font-size:25px;
+  width:120px;
+}
+
+.memRegistTd {
+  font-size:20px;
+  width:500px;
+  padding-left: 20px;
+}
+
+#memRegistfuncDiv {
+  font-size: 30px;
+  text-align: right;
+  margin-right:20%;
+}
+
+.dupliBtn {
+  padding:5px;
+  margin-right: 10%;
+  font-size: 15px;
+  background-color:#3C2E25;
+}
+
+.dupliBtn:link {text-decoration:none; color:#F9FBEE;}
+.dupliBtn:visited {text-decoration:none; color:#F9FBEE;}
+.dupliBtn:active {text-decoration:none; color:#F9FBEE;}
+.dupliBtn:hover {text-decoration:none; color:#F9FBEE;}

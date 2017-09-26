@@ -1,0 +1,93 @@
+/* 구매목록 */
+#buyListWrap {
+  text-align: center;
+  background-color: #827E63;
+  margin: 0 auto;
+  width:800px;
+
+}
+#buyListHeader {
+  font-size: 30px;
+  font-weight: bold;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #584A30;
+}
+#buyListDiv{
+  overflow-x:hidden;
+  overflow-y:scroll;
+    height:300px;
+}
+.buyInfoDiv {
+  margin-top: 5px;
+  border-bottom: 3px solid #B9BAA4;
+}
+.buyInfoImg {
+  display: inline-block;
+  width:150px;
+  height:100px;
+
+}
+.buyInfoContent{
+  padding-left: 30px;
+  display: inline-block;
+  font-size: 28px;
+}
+
+.buyListLink:link {text-decoration:none; color:black;}
+.buyListLink:visited {text-decoration:none; color:black;}
+.buyListLink:active {text-decoration:none; color:black;}
+.buyListLink:hover {text-decoration:none; color:black;}
+
+/* 장바구니 */
+#wishListWrap {
+  text-align: center;
+  background-color: #827E63;
+  margin: 0 auto;
+  width:800px;
+
+}
+#wishListHeader {
+  font-size: 30px;
+  font-weight: bold;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #584A30;
+}
+#wishListDiv{
+  overflow-x:hidden;
+  overflow-y:scroll;
+  height:300px;
+}
+.wishInfoDiv {
+  margin-top: 5px;
+  border-bottom: 3px solid #B9BAA4;
+}
+.wishListInfoImgDiv {
+  display: inline-block;
+  width:150px;
+  height:100px;
+}
+.wishListInfoContentDiv{
+  padding-left: 30px;
+  display: inline-block;
+  font-size: 28px;
+}
+.wishListLink:link {text-decoration:none; color:black;}
+.wishListLink:visited {text-decoration:none; color:black;}
+.wishListLink:active {text-decoration:none; color:black;}
+.wishListLink:hover {text-decoration:none; color:black;}
+
+.wishListCancel {
+  background-color:#8F784E;
+}
+
+.wishListCancel:link {text-decoration:none; color:black;}
+.wishListCancel:visited {text-decoration:none; color:black;}
+.wishListCancel:active {text-decoration:none; color:black;}
+.wishListCancel:hover {text-decoration:none; color:black;}
+
+.buyWishListDiv {
+  background-color: #8F784E;
+  font-size: 30px;
+}

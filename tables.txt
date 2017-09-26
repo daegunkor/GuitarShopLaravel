@@ -1,0 +1,67 @@
+create database ldg_db;
+use database ldg_db;
+
+create table users(
+	id char(20),
+	password char(20),
+	name char(20),
+	nick char(20),
+	hp char(20),
+	email char(40)
+);
+
+
+create table qBoardQuestion(
+	num int(10) unsigned NOT NULL,
+	title char(40) NOT NULL,
+	content text,
+	regist_day char(20) NOT NULL,
+	hit int(11),
+	id char(20),
+	nick char(20),
+	norFile text
+);
+
+create table qBoardAnswer(
+	parent int(11),
+	title char(40) not null,
+	content text,
+	regist_day char(20) not null,
+	id char(20),
+	nick char(20)
+);
+
+create table goods(
+	num int(10) unsigned NOT NULL,
+	title char(40) NOT NULL,
+	name text NOT NULL,
+	content text,
+	price int(10),
+	quantity int(10),
+	regist_day char(20) NOT NULL,
+	id char(20),
+	nick char(20),
+	mainImg text
+);
+
+create table goodsReview(
+	parent int(11),
+	content text,
+	regist_day char(20) not null,
+	id char(20),
+	nick char(20)
+);
+
+create table buyList(
+	id char(20),
+	num int(10) unsigned NOT NULL
+);
+
+create table wishList(
+	id char(20),
+	num int(10) unsigned NOT NULL
+);
+
+
+mysqldump -uroot -p ldg_db > ./ldg_db.sql
+mysqldump -uroot -p ldg_db < ./ldg_db.sql

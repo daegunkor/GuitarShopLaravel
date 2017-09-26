@@ -1,0 +1,25 @@
+body {
+  text-align: center;
+
+  background-color: #E6DE9F;
+}
+
+#loginBoxDiv{
+  margin: 0 auto;
+  width: 400px;
+  font-size: 23px;
+  margin-top: 30%;
+}
+#loginBoxDiv > a:link {text-decoration:none; color:#F9FBEE; background-color: #3C2E25;}
+#loginBoxDiv > a:visited {text-decoration:none; color:#F9FBEE; background-color: #3C2E25;}
+#loginBoxDiv > a:active {text-decoration:none; color:#F9FBEE; background-color: #3C2E25;}
+#loginBoxDiv > a:hover {text-decoration:none; color:#F9FBEE; background-color: #3C2E25;}
+
+.searchLoginTable {
+  margin-top: 30%;
+  font-size: 20px;
+}
+
+.searchLoginTitle {
+  font-weight: bold;
+}

@@ -1,0 +1,189 @@
+/* 질문 리스트 */
+#QnATopBar {
+  font-weight: bold;
+  font-size: 40px;
+}
+#QnABoard{
+  text-align: center;
+  width:inherit;
+}
+#QnABoardTable {
+  border-collapse:collapse;
+  width:1000px;
+  background-color: #E6DE9F;
+}
+td {
+    padding: 3px;
+}
+#QnATableField {
+  font-size: 25px;
+  font-weight:bold;
+  background-color: #584A30;
+}
+#QnANum {width:50px;}
+#QnATitle {width:450px;}
+#QnADate
+#QnAHit {width:75px;}
+#QnAWriter
+#QnAFile {width:50px;}
+
+.QnATableRecord{
+  font-size: 25px;
+}
+.QnATableRecord > a:link {text-decoration:none; color:black;}
+.QnATableRecord > a:visited {text-decoration:none; color:black;}
+.QnATableRecord > a:active {text-decoration:none; color:black;}
+.QnATableRecord > a:hover {text-decoration:none; color:black;}
+.QnABoardTableTr {
+  height:30px;
+}
+#QnAWriteDiv{
+  width:auto;
+  text-align: right;
+  margin-top: 10px;
+}
+
+#QnAWriteDiv > a:link {text-decoration:none; color:#F9FBEE;}
+#QnAWriteDiv > a:visited {text-decoration:none; color:#F9FBEE;}
+#QnAWriteDiv > a:active {text-decoration:none; color:#F9FBEE;}
+#QnAWriteDiv > a:hover {text-decoration:none; color:#F9FBEE;}
+
+/* 글쓰기 버튼 */
+#questionWriteBtn {
+  padding:5px;
+  margin-right: 10%;
+  font-size: 30px;
+  background-color:#3C2E25;
+}
+
+
+/* 페이징 */
+#QnAPageDiv {
+  font-size: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+#QnAPageDiv > a:link {text-decoration:none; color:black;}
+#QnAPageDiv > a:visited {text-decoration:none; color:black;}
+#QnAPageDiv > a:active {text-decoration:none; color:black;}
+#QnAPageDiv > a:hover {text-decoration:none; color:black;}
+
+/* 질문글 컨텐츠 */
+#QnAContentTable {
+  border-collapse:collapse;
+  width:1000px;
+  background-color: #E6DE9F;
+}
+
+.QnAContentfirstTd {
+  background-color:#8F8A63;
+  text-align: center;
+  font-weight:bold;
+  font-size:25px;
+  width:120px;
+}
+.QnASubjectTd {
+  background-color:#D1CA91;
+  text-align: center;
+  font-size:20px;
+  width:880px;
+}
+
+#QnAContentfuncDiv {
+  font-size: 30px;
+
+  text-align: right;
+  margin-right:20%;
+  margin-top:20px;
+}
+
+#QnAContentfuncDiv > a {
+  padding: 10px;
+  background-color:#3C2E25;
+}
+
+#QnAContentfuncDiv > a:link {text-decoration:none; color:#F9FBEE;}
+#QnAContentfuncDiv > a:visited {text-decoration:none; color:#F9FBEE;}
+#QnAContentfuncDiv > a:active {text-decoration:none; color:#F9FBEE;}
+#QnAContentfuncDiv > a:hover {text-decoration:none; color:#F9FBEE;}
+
+#answerTable{
+  margin-top:20px;
+  border-collapse:collapse;
+  width:800px;
+  background-color: #E6DE9F;
+}
+
+.answerfirstTd {
+  background-color:#8F8A63;
+  text-align: center;
+  font-weight:bold;
+  font-size:22px;
+}
+
+.answerSubjectTd {
+  background-color:#D1CA91;
+  text-align: center;
+  font-size:28px;
+}
+
+/* 질문 글 쓰기*/
+
+#QuestionWriteTable {
+  border-collapse:collapse;
+  width:1000px;
+  background-color: #E6DE9F;
+}
+
+#contentDiv {
+  overflow-x:hidden;
+  overflow-y:scroll;
+  background-color: #F9FBDD;
+  height:400px;
+
+}
+
+.questionWritefirstTd {
+  background-color:#8F8A63;
+  text-align: center;
+  font-weight:bold;
+  font-size:22px;
+  width:120px;
+}
+.questionWriteSubjectTd {
+  background-color:#D1CA91;
+  text-align: center;
+  font-size:20px;
+  width:880px;
+}
+
+#questionWritefuncDiv {
+  font-size: 30px;
+  text-align: right;
+  margin-right:20%;
+  margin-top:20px;
+}
+
+/* 질문글 올리기 */
+#writeQuestionTable {
+  border-collapse:collapse;
+  width:1000px;
+  background-color: #E6DE9F;
+}
+
+
+.answerContentfirstTd {
+  background-color:#8F8A63;
+  text-align: center;
+  font-weight:bold;
+  font-size:22px;
+  width:120px;
+}
+
+.registAnswerFunc {
+  font-size: 30px;
+  text-align: right;
+  margin-right:20%;
+  margin-top:20px;
+}
